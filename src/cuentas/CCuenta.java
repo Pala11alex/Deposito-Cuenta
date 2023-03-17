@@ -1,5 +1,10 @@
 package cuentas;
 
+/**
+ * 
+ * @author Alejandro Palacio
+ */
+
 
 public class CCuenta {
 ////titulo introducido////
@@ -23,14 +28,16 @@ public class CCuenta {
     public double getSaldo() {
         return saldo;
     }
-
+    
     /**
-     * @param saldo the saldo to set
+     * 
+     * @param saldo. determina el saldo e cuenta
+     * 
      */
+
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-
 
     private String nombre;
     private String cuenta;
